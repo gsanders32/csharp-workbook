@@ -6,17 +6,44 @@ namespace ManyMethods
     {
         static void Main(string[] args)
         {
-            Hello(); 
+            Hello();
+            Console.WriteLine("Press any key for next program"); //display text
+            Console.ReadKey(); //wait for key press 
+            Console.Clear(); //clear console
             Addition();
+            Console.WriteLine("Press any key for next program"); //display text
+            Console.ReadKey(); //wait for key press 
+            Console.Clear(); //clear console
             CatDog();
+            Console.WriteLine("Press any key for next program"); //display text
+            Console.ReadKey(); //wait for key press 
+            Console.Clear(); //clear console
             OddEvent();
+            Console.WriteLine("Press any key for next program"); //display text
+            Console.ReadKey(); //wait for key press 
+            Console.Clear(); //clear console
             Inches();
+            Console.WriteLine("Press any key for next program"); //display text
+            Console.ReadKey(); //wait for key press 
+            Console.Clear(); //clear console
             Echo();
+            Console.WriteLine("Press any key for next program"); //display text
+            Console.ReadKey(); //wait for key press 
+            Console.Clear(); //clear console
             KillGrams();
+            Console.WriteLine("Press any key for next program"); //display text
+            Console.ReadKey(); //wait for key press 
+            Console.Clear(); //clear console
             Date();
+            Console.WriteLine("Press any key for next program"); //display text
+            Console.ReadKey(); //wait for key press 
+            Console.Clear(); //clear console
             Age();
+            Console.WriteLine("Press any key for next program"); //display text
+            Console.ReadKey(); //wait for key press 
+            Console.Clear(); //clear console
             Guess();
-            //keep console open
+            Console.WriteLine("That was the last Program"); //display text
             Console.Read(); //keep window until key press
         }
 
