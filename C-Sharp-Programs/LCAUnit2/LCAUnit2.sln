@@ -9,11 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PigLatin", "PigLatin\PigLat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissors", "RockPaperScissors\RockPaperScissors.csproj", "{C5E283B8-B6C5-4884-B97B-5A0CD3CA8FCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ticTacToe", "ticTacToe\ticTacToe.csproj", "{AB336B30-F75C-41F6-A6DA-BA4EAB51CE44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ticTacToe", "ticTacToe\ticTacToe.csproj", "{AB336B30-F75C-41F6-A6DA-BA4EAB51CE44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{AB6DFDD0-D46A-4A5C-A7E2-9EDE0C799ED7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{AB6DFDD0-D46A-4A5C-A7E2-9EDE0C799ED7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denominations", "Denominations\Denominations.csproj", "{2E007237-55C9-409C-82F6-AA83C5004F44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Denominations", "Denominations\Denominations.csproj", "{2E007237-55C9-409C-82F6-AA83C5004F44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterMind", "MasterMind\MasterMind.csproj", "{67F36433-0F83-4E0E-827C-ADEF6EABB871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scratchpad", "scratchpad\scratchpad.csproj", "{61F3EFD3-1FB5-4885-A659-CB3F28CBEE91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{2E007237-55C9-409C-82F6-AA83C5004F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E007237-55C9-409C-82F6-AA83C5004F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E007237-55C9-409C-82F6-AA83C5004F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F36433-0F83-4E0E-827C-ADEF6EABB871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F36433-0F83-4E0E-827C-ADEF6EABB871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F36433-0F83-4E0E-827C-ADEF6EABB871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F36433-0F83-4E0E-827C-ADEF6EABB871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F3EFD3-1FB5-4885-A659-CB3F28CBEE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F3EFD3-1FB5-4885-A659-CB3F28CBEE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F3EFD3-1FB5-4885-A659-CB3F28CBEE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F3EFD3-1FB5-4885-A659-CB3F28CBEE91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
