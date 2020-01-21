@@ -26,7 +26,7 @@ namespace Denominations
             {
                 if (int.TryParse(arrayOfAmount[1], out amountCoins))
                 {
-                    CoinCounter(amountCoins);
+                    CoinCounter(amountCoins);// call only if value
                 }                
             }
 
