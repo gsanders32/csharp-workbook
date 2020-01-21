@@ -17,7 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Denominations", "Denominati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterMind", "MasterMind\MasterMind.csproj", "{67F36433-0F83-4E0E-827C-ADEF6EABB871}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scratchpad", "scratchpad\scratchpad.csproj", "{61F3EFD3-1FB5-4885-A659-CB3F28CBEE91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "scratchpad", "scratchpad\scratchpad.csproj", "{61F3EFD3-1FB5-4885-A659-CB3F28CBEE91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniqueCharacters", "UniqueCharacters\UniqueCharacters.csproj", "{F0EF9DB0-7F5C-488B-BD9D-9C5F2D796162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestWord", "LongestWord\LongestWord.csproj", "{E255B78D-BB2F-420F-B3C9-A678D09A78A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gradebook", "Gradebook\Gradebook.csproj", "{AAC2BE75-96B7-45D9-828E-E9065200EF58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{61F3EFD3-1FB5-4885-A659-CB3F28CBEE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61F3EFD3-1FB5-4885-A659-CB3F28CBEE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61F3EFD3-1FB5-4885-A659-CB3F28CBEE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EF9DB0-7F5C-488B-BD9D-9C5F2D796162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EF9DB0-7F5C-488B-BD9D-9C5F2D796162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EF9DB0-7F5C-488B-BD9D-9C5F2D796162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EF9DB0-7F5C-488B-BD9D-9C5F2D796162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E255B78D-BB2F-420F-B3C9-A678D09A78A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E255B78D-BB2F-420F-B3C9-A678D09A78A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E255B78D-BB2F-420F-B3C9-A678D09A78A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E255B78D-BB2F-420F-B3C9-A678D09A78A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC2BE75-96B7-45D9-828E-E9065200EF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC2BE75-96B7-45D9-828E-E9065200EF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC2BE75-96B7-45D9-828E-E9065200EF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC2BE75-96B7-45D9-828E-E9065200EF58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

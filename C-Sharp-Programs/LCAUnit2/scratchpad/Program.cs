@@ -4,12 +4,8 @@ using System.Linq;
 
 namespace scratchpad
 {
-    internal class program
+    internal class Program
     {
-
-        private static void Main(string[] args)
-        {
-
-        }       
+        
     }
 }
