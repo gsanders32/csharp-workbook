@@ -14,7 +14,7 @@ namespace LongestWord
 
             string wordsTrim = wordsNoPun.Trim(); // Rmove leading and trailing spaces
 
-            string[] words = wordsNoPun.Split(' '); // Split words on space and add to array
+            string[] words = wordsTrim.Split(' '); // Split words on space and add to array
 
             int wordLen = 0;
             string longestWord = "";
@@ -28,6 +28,7 @@ namespace LongestWord
 
             }
             Console.WriteLine($"The longest word is {longestWord}: with {wordLen} chars"); //display longest word and char count
+            Console.ReadKey();
         }
     }
 }
