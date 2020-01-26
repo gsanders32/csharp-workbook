@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestWord", "LongestWord\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gradebook", "Gradebook\Gradebook.csproj", "{AAC2BE75-96B7-45D9-828E-E9065200EF58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowersOfHanoi", "TowersOfHanoi\TowersOfHanoi.csproj", "{0E43954F-7780-413F-8CD3-40825E80D0BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TowersOfHanoi", "TowersOfHanoi\TowersOfHanoi.csproj", "{0E43954F-7780-413F-8CD3-40825E80D0BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoCos", "PoCos\PoCos.csproj", "{FE80AA6B-A564-491E-BF29-9F933439ED99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{0E43954F-7780-413F-8CD3-40825E80D0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E43954F-7780-413F-8CD3-40825E80D0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E43954F-7780-413F-8CD3-40825E80D0BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE80AA6B-A564-491E-BF29-9F933439ED99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE80AA6B-A564-491E-BF29-9F933439ED99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE80AA6B-A564-491E-BF29-9F933439ED99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE80AA6B-A564-491E-BF29-9F933439ED99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
