@@ -12,8 +12,6 @@ namespace PoCos
             license01.Gender = "Male";
             license01.LicenseNumber = 15789458;
 
-            Console.WriteLine($"{license01.FirstName} {license01.LastName} license number: {license01.LicenseNumber} is a {license01.Gender}");
-
             Book book01 = new Book();
             book01.Title = "The History of C#";
             book01.Author = new string[2];
@@ -24,8 +22,6 @@ namespace PoCos
             book01.Publisher = "Sanders Inc";
             book01.Price = 19.99;
 
-            Console.WriteLine($"Title: {book01.Title}, Author(s): {book01.Author[0]}, {book01.Author[1]}, Pages: {book01.Pages}, SKU: {book01.SKU}, Publisher: {book01.Publisher}, Price: ${book01.Price}");
-
             Airplane airplane01 = new Airplane();
             airplane01.Manufacturer = "Boeing";
             airplane01.Model = "DC7";
@@ -33,7 +29,9 @@ namespace PoCos
             airplane01.Capacity = 250;
             airplane01.Engines = 2;
 
-            Console.WriteLine($"Manufacturer: {airplane01.Manufacturer}, Model: {airplane01.Model}, Variant: {airplane01.Variant}, Capacity: {airplane01.Capacity}, Capacity: {airplane01.Engines}");
+            Console.WriteLine(license01.Display());
+            Console.WriteLine(book01.Display());
+            Console.WriteLine(airplane01.Display());
             Console.ReadKey();
 
             
@@ -44,6 +42,13 @@ namespace PoCos
             public string LastName { get; set; }
             public string Gender { get; set; }
             public int LicenseNumber { get; set; }
+            public string Display()
+            {
+                return "Driver License" +
+                    "\nFull Name: " + FirstName + " " + LastName + 
+                    "\nlicense number: " + LicenseNumber + 
+                    "\nGender: " + Gender + "\n";
+            }
         }
         class Book
         {
@@ -53,7 +58,16 @@ namespace PoCos
             public string SKU { get; set; }
             public string Publisher { get; set; }
             public double Price { get; set; }
-
+            public string Display()
+            {
+                return "Book" +
+                    "\nTitle: " + Title + 
+                    "\nAuthor: " + string.Join(", ",Author) +
+                    "\nNumber of pages: " + Pages +
+                    "\nSKU: " + SKU +
+                    "\nPublisher: " + Publisher +
+                    "\nPrice: $" + Price + "\n";
+            }
         }
         class Airplane
         {
@@ -62,6 +76,15 @@ namespace PoCos
             public string Variant { get; set; }
             public int Capacity { get; set; }
             public int Engines { get; set; }
+            public string Display()
+            {
+                return "Airplane" +
+                    "\nManufacturer: " + Manufacturer +
+                    "\nModel: " + Model +
+                    "\nVariant: " + Variant +
+                    "\nCapacity: " + Capacity +
+                    "\nEngines: " + Engines;
+            }
         }
     }
 }

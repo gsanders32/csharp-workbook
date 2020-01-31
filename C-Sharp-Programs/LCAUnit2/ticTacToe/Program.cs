@@ -287,13 +287,10 @@ namespace ticTacToe
                 Console.ReadLine();
                 noWinner = false;
             }
-
             return true;
         }
         static void PrintBoard()
         {
-
-
             //create board
             Console.WriteLine("     |     |");
             Console.WriteLine("  " + board[0][0] + "  |  " + board[0][1] + "  |  " + board[0][2]);
