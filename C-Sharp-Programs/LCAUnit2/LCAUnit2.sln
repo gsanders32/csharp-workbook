@@ -29,11 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TowersOfHanoi", "TowersOfHa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoCos", "PoCos\PoCos.csproj", "{FE80AA6B-A564-491E-BF29-9F933439ED99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoItem", "ToDoItem\ToDoItem.csproj", "{D5C2C97F-8724-4188-948A-F7E76540A2EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoItem", "ToDoItem\ToDoItem.csproj", "{D5C2C97F-8724-4188-948A-F7E76540A2EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnsortedScores", "UnsortedScores\UnsortedScores.csproj", "{C49357FB-F1E4-402F-84A5-F8170570D93F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnsortedScores", "UnsortedScores\UnsortedScores.csproj", "{C49357FB-F1E4-402F-84A5-F8170570D93F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseOrder", "ReverseOrder\ReverseOrder.csproj", "{96396117-CD0F-44D6-BED6-1671AD252F3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseOrder", "ReverseOrder\ReverseOrder.csproj", "{96396117-CD0F-44D6-BED6-1671AD252F3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
