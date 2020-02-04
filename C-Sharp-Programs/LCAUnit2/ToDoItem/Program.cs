@@ -200,14 +200,15 @@ namespace ToDoItem
         }
         static void ChangeColor()
         {
-            if (Console.ForegroundColor == ConsoleColor.White)
+            /*if (Console.ForegroundColor == ConsoleColor.White)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.White;
-            }
+            }*/
+            Console.ForegroundColor = Console.ForegroundColor == ConsoleColor.White ? ConsoleColor.Red : ConsoleColor.White;
 
         }
     }

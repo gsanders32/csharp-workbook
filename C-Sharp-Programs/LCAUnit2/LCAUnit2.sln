@@ -35,6 +35,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnsortedScores", "UnsortedS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseOrder", "ReverseOrder\ReverseOrder.csproj", "{96396117-CD0F-44D6-BED6-1671AD252F3A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week5", "Week5", "{5E8778E3-FA59-46C9-B792-4AA3F2A26E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Points", "Points\Points.csproj", "{BA0719CF-2A23-4658-8AF9-DACADD344D7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,9 +109,16 @@ Global
 		{96396117-CD0F-44D6-BED6-1671AD252F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96396117-CD0F-44D6-BED6-1671AD252F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96396117-CD0F-44D6-BED6-1671AD252F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA0719CF-2A23-4658-8AF9-DACADD344D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0719CF-2A23-4658-8AF9-DACADD344D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0719CF-2A23-4658-8AF9-DACADD344D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0719CF-2A23-4658-8AF9-DACADD344D7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA0719CF-2A23-4658-8AF9-DACADD344D7E} = {5E8778E3-FA59-46C9-B792-4AA3F2A26E6D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {369B58BC-975B-42DA-B6A9-CE25F30979EB}
