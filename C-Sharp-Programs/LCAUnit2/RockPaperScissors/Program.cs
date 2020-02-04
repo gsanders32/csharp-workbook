@@ -118,8 +118,8 @@ namespace RockPaperScissors
         public static int ComputerHand()
         {
             Random generator = new Random();
-            // creates a number 0,1 or 2
-            int randomNumber = generator.Next(0, 3);
+            // creates a number 1, 2 or 3
+            int randomNumber = generator.Next(1, 3);
             return randomNumber;
         }
 
@@ -138,7 +138,6 @@ namespace RockPaperScissors
             {
                 return 1; //return int
             }
-
         }
     }
 }
