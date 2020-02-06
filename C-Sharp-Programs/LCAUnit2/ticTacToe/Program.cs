@@ -138,13 +138,13 @@ namespace ticTacToe
                     {
                         if (move > 9 || move < 1)
                         {
-                            Console.WriteLine("You did not enter a number between 1 an 10");
+                            Console.WriteLine("You did not enter a number between 1 an 9");
                             PlaceMark();
                         }
                     }
                     else
                     {
-                        Console.WriteLine("You did not enter a number between 1 an 10");
+                        Console.WriteLine("You did not enter a number between 1 an 9");
                         PlaceMark();
                     }
 

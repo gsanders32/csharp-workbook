@@ -7,16 +7,14 @@ namespace SuperHeroesVillains
     {
         static void Main(string[] args)
         {
-            /*Person P1 = new Person("Richard", "Dick");
-            Console.WriteLine($"{P1.Name}{P1.NickName}");
-            Console.WriteLine(P1.ToString());*/
-
+            //List
             var personList = new List<Person>() {
             new Person("William", "Bill"),
             new SuperHero("Wade Turner", "Mr. Incredible", "Super Strength"),
             new Villain("Joker", "Batman"),
             };
             
+            //loop through methods
             foreach (var item in personList)
             {
                 item.PrintGreeting();
@@ -25,19 +23,23 @@ namespace SuperHeroesVillains
     }
     class Person
     {
+        //prop
         public string Name { get; set; }
         public string NickName { get; set; }
 
+        //Ctor
         public Person(string item1, string item2)
         {
             this.Name = item1;
             this.NickName = item2;
         }
 
+        //Method
         public override string ToString()
         {
             return $"\nName: {Name}";
         }
+        //Method
         public virtual void PrintGreeting()
         {
             Console.WriteLine($"Hi, my name is {Name}, you can call me {NickName}.\n");
@@ -45,16 +47,18 @@ namespace SuperHeroesVillains
     }
 
     class SuperHero : Person
-    {
+    {   //prop
         public string HeroName { get; set; }
         public string SuperPower { get; set; }
 
+        //ctor
         public SuperHero(string item1, string item2, string item3) : base(item1, null)
         {
             this.HeroName = item2;
             this.SuperPower = item3;
         }
 
+        //method
         public override void PrintGreeting()
         {
             Console.WriteLine($"I am {Name}. When I am {HeroName}, my super power is {SuperPower}!\n");
@@ -63,13 +67,16 @@ namespace SuperHeroesVillains
 
     class Villain : Person
     {
+        //prop
         public string Nemesis { get; set; }
 
+        //ctor
         public Villain(string item1, string item2) : base(item1, null)
         {
             this.Nemesis = item2;
         }
 
+        //method
         public override void PrintGreeting()
         {
             Console.WriteLine($"I am The {Name}! Have you seen {Nemesis}?\n");
