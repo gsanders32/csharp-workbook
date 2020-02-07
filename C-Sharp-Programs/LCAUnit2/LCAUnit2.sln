@@ -41,9 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Points", "Points\Points.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperHeroesVillains", "SuperHeroesVillains\SuperHeroesVillains.csproj", "{BD98EA90-6733-478F-B7E8-7474BDE280DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLot", "CarLot\CarLot.csproj", "{2E2D9423-E92F-4A50-BF08-DC74CB60C4D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLot", "CarLot\CarLot.csproj", "{2E2D9423-E92F-4A50-BF08-DC74CB60C4D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "palindrome", "palindrome\palindrome.csproj", "{FDCA3E0D-B99F-40D0-A9BC-69178616EA00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "palindrome", "palindrome\palindrome.csproj", "{FDCA3E0D-B99F-40D0-A9BC-69178616EA00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week6", "Week6", "{AB99D21E-964B-49F6-812F-007E02FFD213}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

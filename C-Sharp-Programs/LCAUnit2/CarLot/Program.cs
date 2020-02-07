@@ -31,7 +31,6 @@ namespace CarLot
             //print car lot
             sandersFord.PrintCarLot();
             sandersHonda.PrintCarLot();
-
             Console.ReadKey();
         }
     }
@@ -48,14 +47,33 @@ namespace CarLot
             this.VehicleList = item02;
         }
         //method to print
-        public void PrintCarLot()
+        /*public void PrintCarLot()
         {
             Colors.LotColor();
             Console.WriteLine($"{Name} - Vehicle Inventory:\n");
             Colors.LotColor();
             foreach (var item in VehicleList)
-            {           
+            {
                 Console.WriteLine(item.Info());
+            }
+        }*/
+        //changed the method so i could change the price color in the console 
+        public void PrintCarLot()
+        {
+            Colors.LotColor();
+            Console.WriteLine($"{Name} - Vehicle Inventory:\n");
+            Colors.LotColor();
+            int count = VehicleList.Count;
+            for (int i = 0; i < count; i++)
+            {
+                Console.WriteLine($"License Number: {VehicleList[i].LicenseNumber}");
+                Console.WriteLine($"Make: {VehicleList[i].Make}");
+                Console.WriteLine($"Model: {VehicleList[i].Model}");
+                Console.Write("Price: ");
+                Colors.PriceColor();
+                Console.WriteLine($"${string.Format("{0:n0}", VehicleList[i].Price)}");
+                Colors.PriceColor();
+                Console.WriteLine(VehicleList[i].Info());
             }
         }
     }
@@ -100,13 +118,16 @@ namespace CarLot
         //Method returns vehicle and car info
         public override string Info()
         {
-            return $"Vehicle Type = Car" +
+            /*return $"Vehicle Type = Car" +
                 $"\nLicense Number: {LicenseNumber}" +
                 $"\nMake: {Make}" +
                 $"\nModel: {Model}" +
                 $"\nPrice: ${string.Format("{0:n0}", Price)}" +
                 $"\nType: {Type}" +
-                $"\nNumber Of Doors: {NumberOfDoors}\n";
+                $"\nNumber Of Doors: {NumberOfDoors}\n";*/
+
+            //i changed the code to only return info type and doors so i could change the color of the price
+            return $"Type: {Type}\nNumber Of Doors: {NumberOfDoors}\n";
         }
     }
 
@@ -124,12 +145,15 @@ namespace CarLot
         //Method returns vehicle and truck info
         public override string Info()
         {
-            return $"Vehicle Type = Truck" +
+            /*return $"Vehicle Type = Truck" +
                 $"\nLicense Number: {LicenseNumber}" +
                 $"\nMake: {Make}" +
                 $"\nModel: {Model}" +
                 $"\nPrice: ${string.Format("{0:n0}", Price)}" +
-                $"\nBed Size: {BedSize} ft\n";
+                $"\nBed Size: {BedSize} ft\n";*/
+
+            //i changed the code to only return info bed size so i could change the color of the price
+            return $"Bed Size: {BedSize} ft\n";
         }
     }
 
