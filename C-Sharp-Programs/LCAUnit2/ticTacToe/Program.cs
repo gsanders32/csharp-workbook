@@ -67,8 +67,6 @@ namespace ticTacToe
             {
                 if (currentPlayer == pcPlayer)
                 {
-
-
                     string[] pcMoves = new string[9 - playCounter]; //create new array
                     int i = 0;
                     int pcCanPlay;
