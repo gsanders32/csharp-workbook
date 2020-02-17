@@ -212,6 +212,7 @@ namespace CheckerV4
                                 {
                                     fromPosition = new Position(row, col);
                                     fromChecker = board.GetChecker(fromPosition);
+                                    col = 8;
                                     break;
                                 }
                             }
@@ -459,6 +460,8 @@ namespace CheckerV4
             if (count == 0)
             {
                 noWinner = false;
+                Console.Clear();
+                DisplayBoard();
                 Console.WriteLine($"{playerTeam} Wins!!");
                 Console.Read();
             }

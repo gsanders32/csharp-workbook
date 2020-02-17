@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace CheckerV4
 {
     class Program
