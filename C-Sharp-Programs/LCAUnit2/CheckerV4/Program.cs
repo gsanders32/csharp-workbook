@@ -9,6 +9,9 @@ namespace CheckerV4
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.Title = "Checkers";
+            /*Console.BackgroundColor = ConsoleColor.White;
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Black;*/
             Game game = new Game();
             game.Start();
         }
