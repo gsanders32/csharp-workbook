@@ -8,15 +8,13 @@ namespace scratchpad
     {
         public static void Main()
         {
-            
-
             int[] arrtest = new int[] { 1, 9, 6, 7, 5, 9 };
 
             for (int i = 0; i < arrtest.Length; i++)
             {
                 for (int j = 0; j < arrtest.Length; j++)
                 {
-                    if (arrtest[i] < arrtest[j])
+                    if (arrtest[i] > arrtest[j])
                     {
                         int temp = arrtest[i];
                         arrtest[i] = arrtest[j];
@@ -25,10 +23,9 @@ namespace scratchpad
                     }
                 }
             }
-            Console.WriteLine("\n");
-            foreach (int value in arrtest)
+            foreach (int item in arrtest)
             {
-                Console.Write(value + " ");
+                Console.Write(item + " ");
             }
             Console.Read();
         }
