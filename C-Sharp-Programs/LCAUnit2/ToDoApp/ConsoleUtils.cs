@@ -115,7 +115,7 @@ namespace ToDoApp
         }
         public static string UserMenuInput()
         {
-            bool gooodInput = false;
+            bool goodInput = false;
             string userInput;
             string result = "";
             do // run until good input is recieved
@@ -128,37 +128,37 @@ namespace ToDoApp
                     case "add":
                     case "a":
                         result = "addItem";
-                        gooodInput = true;
+                        goodInput = true;
                         break;
                     case "delete":
                     case "d":
                         result = "deleteItem";
-                        gooodInput = true;
+                        goodInput = true;
                         break;
                     case "list":
                     case "l":
                         result = "listItems";
-                        gooodInput = true;
+                        goodInput = true;
                         break;
                     case "status":
                     case "s":
                         result = "changeStatus";
-                        gooodInput = true;
+                        goodInput = true;
                         break;
                     case "finished":
                     case "f":
                         result = "finishedItems";
-                        gooodInput = true;
+                        goodInput = true;
                         break;
                     case "pending":
                     case "p":
                         result = "pendingItems";
-                        gooodInput = true;
+                        goodInput = true;
                         break;
                     case "quit":
                     case "q":
                         result = "quit";
-                        gooodInput = true;                       
+                        goodInput = true;                       
                         break;
                     default: //error display message
                         Change(Color.Red);
@@ -166,13 +166,13 @@ namespace ToDoApp
                         break;
                 }
 
-            } while (!gooodInput);
+            } while (!goodInput);
             Console.Clear(); //clear screen after good input
             return result; //return selected action
         }
         public static string UserAddItem()
         {
-            bool vaild = false;
+            bool valid = false;
             string result = null;
             Change(Color.Blue);
             Console.WriteLine("Lets add an Item to the list");
@@ -189,9 +189,9 @@ namespace ToDoApp
                 else
                 {
                     result = userInput;
-                    vaild = true;
+                    valid = true;
                 }
-            } while (!vaild);
+            } while (!valid);
             return result; //return item description
         }
         public static int UserDeleteItem()

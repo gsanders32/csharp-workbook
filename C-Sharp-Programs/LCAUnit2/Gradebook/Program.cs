@@ -67,6 +67,7 @@ namespace Gradebook
                 decimal[] decGrades = studentGrade.Select(decimal.Parse).ToArray(); //convert string array to dec array
                 foreach(decimal grade in decGrades) // loop through grades
                 {
+                    //ToDO need to fix does not always return correct ex: 88 77 44 55 returns worng highest 
                     sum += grade; //add up all grades
                     if (grade < minGrade) // find min grade
                     {

@@ -14,7 +14,7 @@ namespace scratchpad
             {
                 for (int j = 0; j < arrtest.Length; j++)
                 {
-                    if (arrtest[i] > arrtest[j])
+                    if (arrtest[i] < arrtest[j])
                     {
                         int temp = arrtest[i];
                         arrtest[i] = arrtest[j];
